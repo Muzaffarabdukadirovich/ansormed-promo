@@ -1,0 +1,42 @@
+body{
+    background-color: aqua;
+}
+.muzaffar-text{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(25, 24, 20,1);
+    box-shadow: 30px 30px 15px 15px orange;
+    border-radius:24px; 
+    margin-top: 200px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    text-align: center;
+    color: orange;
+    font-family: "roboto condensed",monospace;
+    text-transform: capitalize;
+    font-size: 150px;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 100px -100px  5px orange ;
+
+}
+.winner{
+    font-style: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 120px;
+    text-align: center;
+    color: orangered;
+    font-size: 50px;
+    font-style: italic;
+    text-shadow: 100px -80px  5px orange ;
+}
