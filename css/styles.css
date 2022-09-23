@@ -7,6 +7,7 @@ body{
   font-style: 16px;
   line-height: 158%;
   font-family: "Open Sans","Roboto condensed","arial",sans-serif;
+  background-color: #fff;
   
 
 }
@@ -21,8 +22,33 @@ body{
     margin: 0; */
 }
 .logo{
-    width: 185px;
-    height: 50px;
+   width: 50px;
+   height: 50px;
+   margin: 0;
+   padding: 0;
+   
+}
+.sitenav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.ansormed-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 119px;
+    font-family: "open sans",sans-serif;
+    margin-left: 0;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    margin-left: 18px;
+    
 }
 .header{
     display: flex;
@@ -107,7 +133,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 12px 24px;
-    width: 189px; 
+    width: 220px; 
     height: 47px;   
     border: 2px solid #DE2E54;
     border-radius: 8px;
