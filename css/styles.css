@@ -274,6 +274,7 @@ color:#DE2E54;
     margin-top: 0;
 }
 .hero-image{
+    align-self:flex-end;
     width: 423px;
     height: 504px;
     margin-top: 29px;
@@ -281,6 +282,10 @@ color:#DE2E54;
 }
 .image-wrapper{
     display: block;
+}
+.main-link-site-hero:hover {
+    background-color:#DE2E54;
+    color:#fff;
 }
 /* services */
 .services{
@@ -409,4 +414,12 @@ background-color: #222;;
     max-width:  1440px;
     margin-right: auto;
     margin-left: auto;
+}
+.hero-content-holder a:hover {
+    background-color:rgba(222, 46, 84, 0.8);
+    color:#fff;
+    border-color:transparent;
+}
+.hero-content-holder a:active {
+    background-color: rgba(222, 46, 84, 0.6);;
 }
