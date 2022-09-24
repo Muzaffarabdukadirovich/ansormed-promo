@@ -274,11 +274,10 @@ color:#DE2E54;
     margin-top: 0;
 }
 .hero-image{
+   
     align-self:flex-end;
-    width: 423px;
-    height: 504px;
-    margin-top: 29px;
-    margin-bottom: -24px;
+   
+  
 }
 .image-wrapper{
     display: block;
@@ -372,6 +371,59 @@ color:#DE2E54;
     
     color: #444444;
 }
+.main-link-mm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.main-link-last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-bottom: 120px;
+}
+/* cta-section  */
+.cta {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color:#0EB4C1;
+    color:#fff;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.cta-heading{
+    margin-top: 0;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: "roboto condensed", "arial black",sans-serif;
+    font-size: 36px;
+    line-height: 120%;
+}
+.cta-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta-links-item:not(:last-child){
+margin-right: 40px;
+}
+.cta-links a {
+    background-color:#0EB4C1;
+    color:#fff;
+    border-color: #fff;
+}
+.cta-links a:hover {
+    background-color:#de2e54;
+    color:#fff;
+}
+.cta-links a:active {
+    background-color:#de2e54;
+    opacity: 0.6;
+}
 
 .footer-first-layer{
  
@@ -401,8 +453,8 @@ padding: 0;
    margin-left: auto; */
 
    /* by teacher */
-margin-top: 24px;
-margin-bottom: 24px;
+
+
 background-color: #222;;
     
 }
@@ -414,6 +466,8 @@ background-color: #222;;
     max-width:  1440px;
     margin-right: auto;
     margin-left: auto;
+   padding-top: 24px;
+   padding-bottom: 24px;
 }
 .hero-content-holder a:hover {
     background-color:rgba(222, 46, 84, 0.8);
@@ -422,4 +476,7 @@ background-color: #222;;
 }
 .hero-content-holder a:active {
     background-color: rgba(222, 46, 84, 0.6);;
+}
+.img-fill {
+    display: flex;
 }
